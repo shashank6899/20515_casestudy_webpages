@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Patient Details</title>
+</head>
+<body ><center>
+	<center><h1 style="font-size: 45pt;color:white;background-color:red;">Hospital<br></h1></center>
+
+	<center><form style="background-color:red;margin-left: 300px;margin-right: 300px;margin-top: 100px;"method="POST" action="patient_prescription.html">
+
+	<center><label for="meeting-time" style="color:white">Choose a time for your appointment:</label>	
+         <input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2021-08-06T10:30"
+       min="2021-08-06T00:00" max="2021-12-24T00:00" >
+       <p style="color:white ;">Specality:<select style="margin-left: 35px"; name="specality";>
+
+			<option value="Family Neurologists">Family physicians</option>
+			<option value="Internists">Radiologists</option>
+			<option value="Psychiatrists">gynecologists</option>
+            <option>Obstetricians </option>
+        	<option> Psychiatrists</option>
+        	<option> Family physicians </option>
+        	<option>Internists </option>
+           </select></p>
+       <p style="color:lightgoldenrodyellow ;"> Doctors: <select style="margin-left: 38px;" name="course">
+        	<option>Doctor.1</option>
+        	<option>Doctor.2</option>
+        	<option>Doctor.3</option>
+        	<option>Doctor.4</option>
+        	<option>Doctor.5 </option>
+        	<option>Doctor.6</option>
+        	
+        </select>
+	<center> <input type="submit" value="Submit"></center>
+</center>
+
+</form>
+</body>
+</html>
